@@ -1,0 +1,17 @@
+{% extends 'main_site/base.html' %}
+{% load static %}
+{% block css_link %}
+ <link rel="stylesheet" href="{% static '/course/css/style.css' %}">
+{% endblock css_link %}
+
+
+{% block title %}course django{% endblock title %}
+
+{% block content %}
+  <h1>Hello django</h1>
+  <h4>course name : {{course_name}}</h4>
+  <h4>student name : {{student_name}}</h4>
+  <h4>student roll : {{student_roll}}</h4>
+
+{% endblock content %}
+

@@ -1,0 +1,51 @@
+
+
+// git commands
+// set user name and email
+/*
+git config --global user.name vickykumar
+git config --global user.email vickykr26941@gmail.com
+*/
+// see the user name and email
+/*
+git config --global user.name
+git config --global user.email
+*/
+/*
+ls           // show files
+ls - lart    // show hidden files too
+git init     // initilized empty git repo
+git status   // show current status
+git add file_name // file will go to staging area
+git commit        // file will go to unmodified area // we can now only edit
+(i, Esc, W,:,q, enter)
+touch new_file_name    // create a new blank file
+git add -A         // add all untracked files to staging area
+git checkout       // show previous modified files
+git checkout file_name  // mach with previous modified file
+git checkout -f         // all modified files mach with previous files
+git commit -m "message"  // make commit with comment
+git commit -a -m "message" // add and commit with message in single line
+
+
+git log          // will show authorname, email,date and commited message
+git log -p -2  // will show previous 2 commits
+git diff       // compare working directory with staging area // will show differences
+git diff --staged // compare current with last commit
+
+git rm --cached file_name  //file will be removed form staging area to untracked files
+git rm file_name       //file will be deleted(note : will  no longer accessible)
+git clean -f file_name // remove untracked file with file_name
+git status -s         // short staus // file status in staging area // and working tree
+
+
+git branch branch_name  // create a new branch and after working on that we can merge with master branch
+git checkout feature1   // switch to feature1 branch
+git merge featuer1      // merge feature1 to master branch
+
+git remove url // add remote repo
+git remote -v  // see the remote repo
+
+*/
+
+
