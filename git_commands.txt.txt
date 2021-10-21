@@ -49,3 +49,6 @@ git remote -v  // see the remote repo
 */
 
 
+all git commands together
+
+
